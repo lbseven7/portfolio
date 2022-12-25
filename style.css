@@ -201,8 +201,8 @@ a {
 
 /* card Body */
 .card-body {
-  background-color: #01011070;
-  height: 110px;
+  background-color: #0c0c0cfc;
+  height: 100px;
   padding: 20px;
   text-align: center;
   font-family: 'Comfortaa', cursive;
