@@ -9,6 +9,8 @@
 
   --bg-home: #202020;
   --bg-header: #050404f1;
+  --color-h: #5353f5;
+  --orange: #ff8400;
 }
 
 html {
@@ -37,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: #1a1a1a;
 }
 
 /* header start */
@@ -49,7 +52,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .header img {
@@ -70,16 +73,22 @@ li {
 
 li:hover {
   cursor: pointer;
-  background: #36312f;
-  color: rgb(3, 8, 11);
+  background: var(--orange);
+  color: #000;
+  transition: 1.5s;
 }
 
-a {
+.header a {
   cursor: pointer;
-  color: aliceblue;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
-  opacity: 0.8;
+  transition: 0.5s;
+  /* opacity: 0.8; */
+}
+
+.header a:hover {
+  transition: 1s;
 }
 
 /* header end */
@@ -90,8 +99,10 @@ a {
 
 /* foto de leo */
 .home img {
-  width: 30%;
+  width: 10%;
+  margin-right: 25px;
   box-shadow: inset 0 0 0 15px #050505f1;
+  border-radius: 50%;
 }
 
 .home {
@@ -106,27 +117,27 @@ a {
 }
 
 .home div h2 {
-  color: #a9a9ff9c;
+  color: gray;
   font-size: 1.1rem;
   margin-bottom: 20px;
   letter-spacing: 0.1em;
 }
 
 .home h1 {
-  color: aliceblue;
+  color: #fff;
   font-size: 2em;
   margin-bottom: 20px;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
 }
 
 .home div h1 span {
   font-size: 1em;
-  color: #ff6900;
+  color: var(--orange);
   margin-bottom: 20px;
 }
 
 .home div p {
-  color: rgb(167, 156, 146);
+  color: gray;
   font-size: 1em;
   margin-bottom: 20px;
   line-height: 1.2em;
@@ -139,7 +150,7 @@ a {
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: 600;
-  background: #a9a9ff9c;
+  background: #000;
   border: none;
   cursor: pointer;
   transition: 0.5s;
@@ -150,7 +161,7 @@ a {
 }
 
 .btn:hover {
-  background: #ff6900;
+  background: var(--orange);
   transition: 1s;
   color: #ffffff;
 }
@@ -209,19 +220,20 @@ a {
 }
 
 .card-body h2 {
-  color: #ff6900;
+  color: var(--orange);
 }
 
 .card-body h3 a {
   text-align: center;
-  color: #639bfd;
+  color: var(--color-h);
   transition: 1s;
-  font-size: 1.5rem;
+  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 .card-body h3 a:hover {
   text-align: center;
-  color: #e9f1ff;
+  color: var(--orange);
   transition: 1s;
 }
 
@@ -232,8 +244,8 @@ a {
 
 .card-title {
   color: antiquewhite;
-  font-size: 1em;
-  /* margin: 15px 0; */
+  font-size: 0.9em;
+  margin: 15px 0;
 }
 
 .card-text {
@@ -242,6 +254,17 @@ a {
   width: 250px;
   margin: 0 auto;
 }
+
+.backend2 a {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: 1.5em;
+  font-weight: 600;
+  transition: 1s;
+  background: #1a1a1a;
+  margin-left: 50px;
+}
+
 /* card Body */
 
 /* ************************* */
@@ -273,7 +296,7 @@ a {
 }
 
 .about h1 {
-  color: #a9a9ff9c;
+  color: var(--color-h);
   font-size: 1.7em;
   margin-bottom: 20px;
 }
@@ -286,7 +309,7 @@ a {
 }
 
 .about h1 span {
-  color: #ff6900;
+  color: var(--orange);
   margin-bottom: 20px;
 }
 
@@ -311,12 +334,12 @@ a {
 .contact div h1 {
   margin-bottom: 30px;
   margin-left: 0.2em;
-  color: #a9a9ff9c;
+  color: var(--color-h);
   font-size: 1.5em;
 }
 
 .contact div h1 span {
-  color:  #ff6900;
+  color: var(--orange);
   font-size: 1em;
 }
 
@@ -328,12 +351,12 @@ a {
 }
 
 .contact .back-home a {
-  color: #a9a9ff9c;
+  color: var(--color-h);
   font-size: 1em;
 }
 
 .contact .back-home a:hover {
-  color: #ff6900;
+  color: var(--orange);
   transition: 1s;
 }
 
@@ -401,25 +424,3 @@ a {
 }
 
 /* BTN END  */
-
-/* START BACK TO PROJECTS */
-/* .back-projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-}
-
-.back-projects a {
-  color: #a9a9ff9c;
-  font-size: 1em;
-}
-
-.back-projects a:hover {
-  color: #ff6900;
-  transition: 1s;
-} */
-
-/* END BACK TO PROJECTS */
