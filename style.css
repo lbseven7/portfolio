@@ -48,17 +48,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
-}
-
-.header img {
-  width: 5.1em;
-  display: flex;
-  justify-content: space-between;
 }
 
 nav,
@@ -84,6 +78,7 @@ li:hover {
   text-decoration: none;
   font-weight: 600;
   transition: 0.5s;
+  font-size: 1.3em;
   /* opacity: 0.8; */
 }
 
@@ -108,7 +103,7 @@ li:hover {
 .home img {
   width: 20%;
   margin-right: 8em;
-  box-shadow: 2px 2px 800px 2px var(--orange);
+  box-shadow: 2px 2px 800px 2px gray;
   border-radius: 50%;
 }
 
@@ -256,11 +251,11 @@ li:hover {
   /* margin: 10px 0; */
 }
 
-/* .card-title {
+.card-title {
   color: rgb(247, 126, 5);
   font-size: 0.9em;
   margin: 15px 0;
-} */
+}
 
 .card-text {
   color: antiquewhite;
@@ -310,7 +305,7 @@ li:hover {
 }
 
 .about img {
-  width: 15%;
+  width: 20%;
   margin-right: 4em;
   box-shadow: 2px 2px 800px 2px var(--orange);
   border-radius: 50%;
@@ -318,13 +313,13 @@ li:hover {
 
 .about h1 {
   color: #fff;
-  font-size: 1.9em;
+  font-size: 2.2em;
   margin-bottom: 20px;
 }
 
 .about p {
   color: #eeeef8;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 2em;
   line-height: 1.3em;
 }
@@ -442,7 +437,7 @@ li:hover {
 /* BTN END  */
 
 /* Voltar */
-.btn.back {
+/* .btn.back {
     background-color: var(--btn-github);
     color: #fff;
     text-decoration: none;
@@ -453,6 +448,7 @@ li:hover {
     cursor: pointer;
     margin-left: 10px;
     transition: 1s;
+    margin-top: 230px;
   }
 
 .btn-back a {
@@ -476,4 +472,4 @@ li:hover {
   background-color: var(--orange);
   transition: 1s;
   font-weight: bold;
-}
+} */
