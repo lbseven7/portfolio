@@ -63,3 +63,45 @@
   background: var(--orange);
   color: #090909;
 }
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .home img {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 0;
+    top: 0;
+  }
+
+  .home div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .home div h2 {
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+
+  .home div h1 {
+    font-size: 1.5rem;
+  }
+
+  .home div p {
+    font-size: 0.7rem;
+  }
+
+  .home div .btn {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+  }
+}
