@@ -10,19 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/modules.css" />
   </head>
   <body>
     <header class="header">
-      <img src="images/lbleo.jpeg" alt="lb" />
+      <img src="./images/lbsocial.png" alt="logo" />
       <nav>
         <ul class="menu">
-          <li><a href="#home">Inicio</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#project">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -30,10 +35,8 @@
     <hr />
 
     <section class="home" id="home">
-      <!-- <a href='#'></a> -->
       <img src="./images/lbleo.jpeg" alt="logo" />
 
-      <h2>Olá! Sou</h2>
       <div>
         <h1>Leo<span>Barbosa</span></h1>
         <div>
@@ -44,19 +47,16 @@
           </p>
         </div>
 
-        <a
-          href="https://www.linkedin.com/in/alexsandrobarbosa-dev/"
-          target="_blank"
-        >
-          <button type="button" class="btn">Ver Github</button>
+        <a href="#contact">
+          <button type="button" class="btn">Contact <span>Me</span></button>
         </a>
       </div>
     </section>
 
     <section class="about" id="about">
-      <img src="./images/leo-sobre.jpeg" alt="logo" />
+      <img src="./images/leo-mesa.png" alt="logo" />
       <div>
-        <h1>Quem<span>Sou</span></h1>
+        <h1>About<span>Me</span></h1>
 
         <p>
           Autodidata, aprendi desenho, pintura hiper-realista e violão.<br />
@@ -80,126 +80,73 @@
     </section>
 
     <!-- CARDS DOS MÓDULOS -->
-    <section class="projects" id="project">
-      <div class="card card-fundamentos" id="project">
-        <div class="card-header">
+    <section class="modules" id="project">
+      <!-- fundamentos  -->
+      <div class="card" id="project">
+        <a href="#fundamentos">
           <img src="./images/fundamentos.png" class="card-img" alt="" />
-          <h1>Fundamentos</h1>
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Módulo de</h2>
-          <h3 class="card-title"><a href="#fundamentos">Ver Projetos</a></h3>
-        </div>
+        </a>
       </div>
 
+      <!-- frontend  -->
       <div class="card card-frontend" id="project">
-        <div class="card-header">
+        <a href="#frontend">
           <img src="./images/front.png" class="card-img" alt="" />
-          <h1>Frontend</h1>
-        </div>
-
-        <div class="card-body">
-          <h3 class="card-title"><a href="#frontend">Ver Projetos</a></h3>
-        </div>
+        </a>
       </div>
 
+      <!-- backend  -->
       <div class="card card-backend" id="project">
-        <div class="card-header">
+        <a href="#backend">
           <img src="../images/backend.png" class="card-img" alt="" />
-          <h1>Backend</h1>
-        </div>
-
-        <div class="card-body">
-          <h3 class="card-title"><a href="#backend">Ver Projetos</a></h3>
-        </div>
+        </a>
       </div>
 
+      <!-- ciencia da computacao  -->
       <div class="card card-cs" id="project">
-        <div class="card-header">
+        <a href="#cs">
           <img src="./images/c-computacao.png" class="card-img" alt="" />
-          <h1>Ciência da Computação</h1>
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Módulo de</h2>
-          <h3 class="card-title"><a href="#cs">Ver Projetos</a></h3>
-        </div>
+        </a>
       </div>
     </section>
 
     <!-- FUNDAMENTOS - PROJETOS -->
     <section class="projects" id="fundamentos">
       <div class="card">
-        <div class="card-header">
+        <a href="https://todolist-mu-flax.vercel.app/" target="_blank">
           <img src="./images/todolist.png" class="card-img" alt="" />
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Todo-List</h2>
-          <h3 class="card-title">
-            <a href="https://todolist-mu-flax.vercel.app/" target="_blank"
-              >Ver Online</a
-            >
-          </h3>
-        </div>
+        </a>
       </div>
 
       <div class="card">
-        <div class="card-header">
+        <a href="https://pixels-arts.vercel.app/" target="_blank">
           <img src="./images/pixels-arts.png" class="card-img" alt="" />
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Pixels-Arts</h2>
-          <h3 class="card-title">
-            <a href="https://pixels-arts.vercel.app/" target="_blank"
-              >Ver Online</a
-            >
-          </h3>
-        </div>
+        </a>
       </div>
 
-      <!-- lessons-learned -->
       <div class="card">
-        <div class="card-header">
+        <a href="https://github.com/lbseven7/zoo-functions" target="_blank">
           <img src="./images/zoo.png" class="card-img" alt="" />
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Zoo-Functions</h2>
-          <h3 class="card-title">
-            <a href="https://github.com/lbseven7/zoo-functions" target="_blank"
-              >Ver Github</a
-            >
-          </h3>
-        </div>
+        </a>
       </div>
 
       <div class="card">
-        <div class="card-header">
+        <a
+          href="https://github.com/lbseven7/playground-functions "
+          target="_blank"
+        >
           <img src="./images/play.png" class="card-img" alt="" />
-        </div>
-
-        <div class="card-body">
-          <h2 class="card-local">Playground</h2>
-          <h3 class="card-title">
-            <a
-              href="https://github.com/lbseven7/playground-functions "
-              target="_blank"
-              >Ver Github</a
-            >
-          </h3>
-        </div>
+        </a>
       </div>
-
-      <a class="btn-back btn-github" href="#project">Voltar</a>
     </section>
-    -->
+
+    <span class="material-symbols-outlined">
+      <a href="#project">arrow_circle_up</a>
+    </span>
 
     <!-- FRONTEND - PROJETOS -->
-    <section class="projects" id="frontend">
-      <!-- <img src="../img/leodevcode.png" alt="logo" /> -->
+    <!-- <section class="projects" id="frontend">
+      
 
       <div class="card">
         <div class="card-header">
@@ -243,7 +190,7 @@
         </div>
       </div>
 
-      <!-- lessons-learned -->
+     
       <div class="card">
         <div class="card-header">
           <img
@@ -392,11 +339,11 @@
       </div>
 
       <a class="btn-back btn-github" href="#project">Voltar</a>
-    </section>
+    </section> -->
 
     <!-- BACKEND - PROJETOS -->
-    <section class="projects" id="backend">
-      <!-- <img src="../img/leodevcode.png" alt="logo" /> -->
+    <!-- <section class="projects" id="backend">
+     
 
       <div class="card">
         <div class="card-header">
@@ -432,7 +379,7 @@
         </div>
       </div>
 
-      <!-- lessons-learned -->
+  
       <div class="card">
         <div class="card-header">
           <img src="./images/mysql.png" class="card-img" alt="" />
@@ -444,7 +391,6 @@
         </div>
       </div>
 
-      <!-- https://github.com/lbseven7/playground-functions -->
       <div class="card">
         <div class="card-header">
           <img src="./images/mysql1.png" class="card-img" alt="" />
@@ -551,7 +497,7 @@
       <a class="btn-back btn-github" href="#project">Voltar</a>
     </section>
 
-    <!-- BACKEND2 START  -->
+ 
 
     <section class="projects" id="backend2">
       <div class="card">
@@ -561,7 +507,7 @@
 
         <div class="card-body">
           <h2 class="card-local">stranger-things backend</h2>
-          <!-- <h3 class="card-title"><a href='' target='_blank'>Ver Github</a></h3> -->
+       
         </div>
       </div>
 
@@ -576,7 +522,7 @@
 
         <div class="card-body">
           <h2 class="card-local">stranger-things frontend</h2>
-          <!-- <h3 class="card-title"><a href='' target='_blank'>Ver Github</a></h3> -->
+          
         </div>
       </div>
 
@@ -587,20 +533,20 @@
 
         <div class="card-body">
           <h2 class="card-local">trybe-futebol-clube</h2>
-          <!-- <h3 class="card-title"><a href='' target='_blank'>Ver Github</a></h3> -->
+         
         </div>
       </div>
 
       <div class="btn-back">
         <a href="#project">Voltar</a>
       </div>
-    </section>
+    </section> -->
 
     <!-- BACKEND2 ENDS  -->
 
     <!-- CIÊNCIA DA COMPUTAÇÃO START -->
-    <section class="projects" id="cs">
-      <!-- <img src="../img/leodevcode.png" alt="logo" /> -->
+    <!-- <section class="projects" id="cs">
+    
 
       <div class="card">
         <div class="card-header">
@@ -609,7 +555,7 @@
 
         <div class="card-body">
           <h2 class="card-local">Job-Insigths</h2>
-          <!-- <h3 class="card-title"><a href='' target='_blank'>Ver Github</a></h3> -->
+         
         </div>
       </div>
 
@@ -624,7 +570,7 @@
         </div>
       </div>
       <a class="btn-back btn-github" href="#project">Voltar</a>
-    </section>
+    </section> -->
 
     <!-- CIÊNCIA DA COMPUTAÇÃO ENDS -->
 
@@ -632,7 +578,7 @@
 
     <section class="contact" id="contact">
       <div>
-        <h1>Fale<span>Me</span></h1>
+        <h1>Contact<span>Me</span></h1>
 
         <a
           class="btn-linkedin"
@@ -651,10 +597,12 @@
           target="_blank"
           >Whatsapp</a
         >
-
-        <a class="btn-back btn-github" href="#home">Voltar</a>
       </div>
     </section>
+
+    <span class="material-symbols-outlined">
+      <a href="#project">arrow_circle_up</a>
+    </span>
 
     <!-- CONTACT ENDS  -->
   </body>

@@ -42,6 +42,23 @@ body {
   background: #1a1a1a;
 }
 
+/* icon  */
+.material-symbols-outlined {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+.material-symbols-outlined a{
+  background-color: #00000000;
+  text-decoration: none;
+  color: #00fff2;
+}
+
 /* header start */
 .header {
   background-color: var(--bg-header);
@@ -95,130 +112,6 @@ li:hover {
 }
 /* header end */
 
-/* PROJECTS START*/
-
-/* card dos módulos */
-.card {
-  width: 250px;
-  height: 300px;
-  margin: 20px;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 30px 50px #0d0400ca;
-  border-top: 2px solid  #7b685a;
-  border-left: 2px solid #7b685a;
-  transition: 1s;
-}
-
-.card:hover {
-  transform: scale(1.1);
-  transition: 0.7s;
-}
-
-/* card Header */
-
-.card-header {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-}
-
-.card-header h1 {
-  color: #fff;
-  font-size: 1.4em;
-  margin-top: 3.5em;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-}
-
-.card-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-.card-img-fund {
-  width: 300px;
-  height: 220px;
-}
-
-/* card Body */
-.card-body {
-  background-color: #0c0c0cfc;
-  height: 100px;
-  padding: 20px;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-}
-
-.card-body h2 {
-  color: var(--orange);
-}
-
-.card-body h3 a {
-  text-align: center;
-  color: var(--color-h);
-  transition: 1s;
-  margin-top: 10px;
-  font-size: 1.2em;
-  text-decoration: none;
-}
-
-.card-body h3 a:hover {
-  text-align: center;
-  color: var(--orange);
-  transition: 1s;
-}
-
-.card-local {
-  font-size: 1.2rem;
-  /* margin: 10px 0; */
-}
-
-.card-title {
-  color: rgb(247, 126, 5);
-  font-size: 0.9em;
-  margin: 15px 0;
-}
-
-.card-text {
-  color: antiquewhite;
-  font-size: 0.9rem;
-  width: 250px;
-  margin: 0 auto;
-}
-
-.backend2 a {
-  text-decoration: none;
-  color: var(--orange);
-  font-size: 1.5em;
-  font-weight: 600;
-  transition: 1s;
-  background: #1a1a1a;
-  margin-left: 50px;
-}
-
-/* card Body */
-
-/* ************************* */
-
-/* PROJECTS START */
-
-.projects {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  height: 100vh;
-  background-color: #1a1a1a;
-}
-
-
 /* CONTACT START*/
 
 .contact {
@@ -255,11 +148,6 @@ li:hover {
   align-items: center;
   margin-top: 60px;
 }
-
-/* .contact .back-home a {
-  color: var(--color-h);
-  font-size: 1em;
-} */
 
 /* CONTACT END */
 
