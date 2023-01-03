@@ -114,102 +114,10 @@ li:hover {
 
 /* CONTACT START*/
 
-.contact {
-  background-color: #050505;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  height: 100vh;
-}
-
-.contact div a {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.contact div h1 {
-  margin-bottom: 30px;
-  margin-left: 0.2em;
-  color: #fff;
-  font-size: 1.7em;
-}
-
-.contact div h1 span {
-  color: var(--orange);
-  font-size: 1em;
-}
-
-.contact .back-home {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 60px;
-}
 
 /* CONTACT END */
 
 /* START BTN  */
-.btn-linkedin {
-  background-color: var(--btn-linkedin);
-  color: #fff;
-  text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 5px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-}
 
-.btn-linkedin:hover {
-  background-color: var(--hover-linkedin);
-  color: rgb(251, 251, 251);
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.btn-github {
-  background-color: var(--btn-github);
-  color: #fff;
-  text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 5px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: 1s;
-}
-
-.btn-github:hover {
-  background-color: #8f8f999c;
-  color: aliceblue;
-  transition: 0.9s;
-  cursor: pointer;
-}
-
-.btn-whatsapp {
-  background-color: var(--btn-whatsapp);
-  color: aliceblue;
-  text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: 1s;
-}
-
-.btn-whatsapp:hover {
-  background-color: var(--hover-whatapp);
-  color: rgb(255, 255, 255);
-  transition: 0.9s;
-  cursor: pointer;
-}
 
 /* BTN END  */
