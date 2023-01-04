@@ -77,7 +77,7 @@
     flex-direction: column;
     width: 40%;
     margin-right: 0;
-    top: 0;
+    margin-bottom: 1em;
   }
 
   .home div {
@@ -97,11 +97,14 @@
   }
 
   .home div p {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
   }
 
   .home div .btn {
-    font-size: 0.8rem;
+    font-size: 1.7rem;
     padding: 10px 15px;
+    background-color: var(--orange);
+    color: #000;
   }
 }
