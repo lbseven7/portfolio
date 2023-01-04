@@ -36,22 +36,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* html {
+  html {
     font-size: 80%;
   }
 
   body {
     font-size: 1.2rem;
-  } */
+  }
 
   .frontend {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    /* flex-direction: row; */
-    /* justify-content: center; */
-
   }
 
   .card {
